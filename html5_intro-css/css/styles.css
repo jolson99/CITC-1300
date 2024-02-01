@@ -1,0 +1,42 @@
+body {
+    background-color:#C0C0C0;
+}
+
+#container {
+    background-color: #ADD8E6;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 90px;
+    color: #434b56;
+    text-shadow: 4px 4px 5px white;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    font-size: 20px;
+    margin: 0 12px;
+}
+
+main img{
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+}
+
+footer{
+    text-align: center;
+}
+
+h2 {
+    text-align:center;
+}
