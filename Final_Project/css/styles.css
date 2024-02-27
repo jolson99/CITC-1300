@@ -1,0 +1,150 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: #445A61;
+}
+
+#container {
+    background-color: #EEECE1;
+    padding: 15px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+/* mobile styles */
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color:#445A61;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px
+}
+
+nav li a:hover {
+    background-color: #FFD700;
+}
+
+header h1 {
+    font-size: 30px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: #748172;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #445A61;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.button:hover {
+    color:#FFD700;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+/* tablet styles */
+@media (min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        width: 200px;
+    }
+
+    .col img {
+        width: 75%;
+    }
+
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+        display: flex;
+    }
+    .col {
+        width: 33.33%;
+    }
+}
